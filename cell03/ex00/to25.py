@@ -1,9 +1,9 @@
-print("Enter a number less than 25")
+print("Enter a numbr less than 25")
 num = int(input())
-while num >25:
+if num < 25:
+    i = num
+    while i <26:
+        print("Inside the loop, my variable is", i)
+        i +=1
+if num >25:
     print("ERROR")
-    print("Enter a number less than 25")
-    num = int(input())
-  
-
-print(f"Inside the loop, my variable is {num}")
